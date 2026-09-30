@@ -1,0 +1,40 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node Dependencies & Build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm/
+
+# Environment Variables & Secrets
+.env
+backend/.env
+*.local
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+stock_prediction.db
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large Model / Cache Dirs
+.cache/
+hf_cache/
